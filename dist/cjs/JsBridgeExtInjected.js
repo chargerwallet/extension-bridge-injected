@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.getOrCreateExtInjectedJsBridge = exports.JsBridgeExtInjected = void 0;
 /* eslint-disable @typescript-eslint/no-unsafe-call */
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
-const cross_inpage_provider_core_1 = require("cross-inpage-provider-core");
-const cross_inpage_provider_core_2 = require("cross-inpage-provider-core");
+const cross_inpage_provider_core_1 = require("@chargerwallet/cross-inpage-provider-core");
+const cross_inpage_provider_core_2 = require("@chargerwallet/cross-inpage-provider-core");
 const { JS_BRIDGE_MESSAGE_DIRECTION, JS_BRIDGE_MESSAGE_EXT_CHANNEL } = cross_inpage_provider_core_1.consts;
 function getOrCreateExtInjectedJsBridge(options = {}) {
     // create ext bridge by default

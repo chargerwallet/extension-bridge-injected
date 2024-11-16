@@ -1,6 +1,6 @@
 {
-  "name": "extension-bridge-injected",
-  "version": "2.0.0",
+  "name": "@chargerwallet/extension-bridge-injected",
+  "version": "3.0.0",
   "keywords": [
     "extension-bridge-injected"
   ],
@@ -28,7 +28,7 @@
     "start": "tsc --watch"
   },
   "dependencies": {
-    "cross-inpage-provider-core": "^2.0.0",
-    "cross-inpage-provider-types": "^2.0.0"
+    "@chargerwallet/cross-inpage-provider-core": "^2.0.0",
+    "@chargerwallet/cross-inpage-provider-types": "^2.0.0"
   }
 }

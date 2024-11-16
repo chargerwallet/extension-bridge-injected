@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-call */
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
-import { fakeDebugLogger, consts } from 'cross-inpage-provider-core';
-import { JsBridgeBase, injectedProviderReceiveHandler, injectJsBridge, } from 'cross-inpage-provider-core';
+import { fakeDebugLogger, consts } from '@chargerwallet/cross-inpage-provider-core';
+import { JsBridgeBase, injectedProviderReceiveHandler, injectJsBridge, } from '@chargerwallet/cross-inpage-provider-core';
 const { JS_BRIDGE_MESSAGE_DIRECTION, JS_BRIDGE_MESSAGE_EXT_CHANNEL } = consts;
 function getOrCreateExtInjectedJsBridge(options = {}) {
     // create ext bridge by default

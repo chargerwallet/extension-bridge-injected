@@ -1,5 +1,5 @@
-import { IJsBridgeConfig, IJsBridgeMessagePayload, IOptionsWithDebugLogger } from 'cross-inpage-provider-types';
-import { JsBridgeBase } from 'cross-inpage-provider-core';
+import { IJsBridgeConfig, IJsBridgeMessagePayload, IOptionsWithDebugLogger } from '@chargerwallet/cross-inpage-provider-types';
+import { JsBridgeBase } from '@chargerwallet/cross-inpage-provider-core';
 declare function getOrCreateExtInjectedJsBridge(options?: IJsBridgeConfig): JsBridgeBase;
 export type ISetupPostMessageListenerOptions = IOptionsWithDebugLogger & {
     bridge?: JsBridgeBase;
